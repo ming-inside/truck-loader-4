@@ -1,16 +1,16 @@
 {
-  "version": "0.1",
-  "name": "My App",
-  "description": "Your new awesome Open Web App",
-  "launch_path": "/",
+  "version": "1.0",
+  "name": "Struck Loader 4",
+  "description": "The new adventures of little but strong Truck Loader and his faithful magnet.",
+  "launch_path": "/truck-loader-4/",
   "icons": {
     "16": "/img/icons/mortar-16.png",
     "48": "/img/icons/mortar-48.png",
     "128": "/img/icons/mortar-128.png"
   },
   "developer": {
-    "name": "Your Name",
-    "url": "http://yourawesomeapp.com"
+    "name": "PlayWebHub",
+    "url": "http://www01.webplayhub.com"
   },
   "installs_allowed_from": ["*"],
   "appcache_path": "/cache.manifest",
@@ -18,13 +18,13 @@
     "es": {
       "description": "Su nueva aplicación impresionante Open Web",
       "developer": {
-        "url": "http://yourawesomeapp.com"
+        "url": "http://www01.webplayhub.com"
       }
     },
     "it": {
       "description": "Il vostro nuovo fantastico Open Web App",
       "developer": {
-        "url": "http://yourawesomeapp.com"
+        "url": "http://www01.webplayhub.com"
       }
     }
   },

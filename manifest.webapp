@@ -4,8 +4,6 @@
   "description": "The new adventures of little but strong Truck Loader and his faithful magnet.",
   "launch_path": "/truck-loader-4/",
   "icons": {
-    "16": "/img/icons/mortar-16.png",
-    "48": "/img/icons/mortar-48.png",
     "128": "/img/icons/mortar-128.png"
   },
   "developer": {
@@ -13,20 +11,5 @@
     "url": "http://www01.webplayhub.com"
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
-  "locales": {
-    "es": {
-      "description": "Su nueva aplicación impresionante Open Web",
-      "developer": {
-        "url": "http://www01.webplayhub.com"
-      }
-    },
-    "it": {
-      "description": "Il vostro nuovo fantastico Open Web App",
-      "developer": {
-        "url": "http://www01.webplayhub.com"
-      }
-    }
-  },
-  "default_locale": "en"
+  "appcache_path": "/cache.manifest"
 }

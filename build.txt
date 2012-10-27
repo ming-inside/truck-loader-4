@@ -2,6 +2,7 @@
 css/app.css
 ----------------
 css/defaults.css
+css/styles.css
 css/app.css
 
 css/bootstrap-responsive.css
@@ -59,6 +60,10 @@ css/lib/x-tag/slidebox.css
 css/lib/x-tag/tabbox.css
 ----------------
 css/lib/x-tag/tabbox.css
+
+css/styles.css
+----------------
+css/styles.css
 
 js/app.js
 ----------------

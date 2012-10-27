@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html manifest="manifest.appcache">
   <head>
     <meta charset="utf-8">
 
@@ -30,6 +30,7 @@
     <script src="js/lib/modernizr-2.5.3.min.js"></script>    
   </head>
   <body>
+
     <!-- Self-hosted apps:
          install.js (https://github.com/wavysandbox/install) provides
          an install API that works with iOS, Chrome, and Firefox.
@@ -37,23 +38,96 @@
 
          Use this for self-hosted apps (not in a marketplace) or for
          test installing your app. -->
-    
+    <!--
     <div class="install-error"></div>
     <div class="install-ios-msg">
       To install, press the forward arrow in Safari and touch "Add to
       Home Screen"
     </div>
-
+    -->
     <!-- Put this install button somewhere on the page and the user
          will be able to click it to install your app. You don't need 
          this if your app will be installed from a marketplace. -->
-    <button class="install-btn">Install</button>    
-
+    <!--
+    <button class="install-btn">Install</button>
+    -->
 
 
     <!-- Add your site or application content here -->
 
+    <section id="page"> <!-- Defining the #page section with the section tag -->
 
+        <header> <!-- Defining the header section of the page with the appropriate tag -->
+
+            <hgroup>
+                <!--
+                <h1>Your Logo</h1>
+                -->
+            </hgroup>
+
+            <nav class="clear"> <!-- The nav link semantically marks your main site navigation -->
+                <ul>
+                    <li><a href="http://www01.webplayhub.com">WebPlayHub</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section id="articles"> <!-- A new section with the articles -->
+
+            <!-- Article 1 start -->
+
+            <div class="line"></div>  <!-- Dividing line -->
+
+            <article id="article1"> <!-- The new article tag. The id is supplied so it can be scrolled into view. -->
+                <h2>Truck Loader 4</h2>
+
+                <div class="line"></div>
+
+                <div class="articleBody clear">
+
+
+                    <p>
+                        <embed src="truck-loader-4-mochi.swf" menu="false" quality="high" width="750" height="560" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" ></embed>
+                    </p>
+                </div>
+            </article>
+
+            <!-- Article 1 end -->
+        </section>
+
+        <footer> <!-- Marking the footer section -->
+
+            <div class="line"></div>
+
+            <script type="text/javascript">
+                clicksor_adhere_opt='left';
+
+                clicksor_default_url = '';
+                clicksor_banner_border = '#99CC33';
+                clicksor_banner_ad_bg = '#FFFFFF';
+                clicksor_banner_link_color = '#000000';
+                clicksor_banner_text_color = '#666666';
+                clicksor_layer_border_color = '';
+                clicksor_layer_ad_bg = '';
+                clicksor_layer_ad_link_color = '';
+                clicksor_layer_ad_text_color = '';
+                clicksor_text_link_bg = '';
+                clicksor_text_link_color = '';
+                clicksor_enable_text_link = false;
+
+                clicksor_banner_text_banner = true;
+                clicksor_banner_image_banner = true;
+                clicksorcn_enable_layer_pop = false;
+            </script>
+            <script type="text/javascript" src="http://ads.clicksor.com/newServing/showAd.php?nid=1&amp;pid=281859&amp;adtype=2&amp;sid=459239"></script> <noscript><a href="http://www.yesads.com">online marketing</a></noscript>
+
+            <p>WebPlayHub</p> <!-- Change the copyright notice -->
+
+
+        </footer>
+
+    </section> <!-- Closing the #page section -->
 
 
 

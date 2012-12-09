@@ -4,7 +4,7 @@
   "description": "The new adventures of little but strong Truck Loader and his faithful magnet.",
   "launch_path": "/truck-loader-4/",
   "icons": {
-    "128": "/img/icons/mortar-128.png"
+    "128": "/img/icons/icon-128.png"
   },
   "developer": {
     "name": "PlayWebHub",

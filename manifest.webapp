@@ -2,8 +2,9 @@
   "version": "1.0",
   "name": "Struck Loader 4",
   "description": "The new adventures of little but strong Truck Loader and his faithful magnet.",
+  "launch_path": "/truck-loader-4/",
   "icons": {
-    "128": "/img/icons/icon_128.png"
+    "128": "/truck-loader-4/img/icons/icon_128.png"
   },
   "developer": {
     "name": "PlayWebHub",
